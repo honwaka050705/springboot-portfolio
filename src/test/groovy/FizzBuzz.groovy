@@ -1,10 +1,10 @@
-import com.example.springbootportfolio.spock.FizzBazz
+import com.example.springbootportfolio.spock.FizzBuzz
 import spock.lang.Specification
 
-class FizzBazzTest extends Specification {
+class FizzBuzzTest extends Specification {
     def "case1"() {
         setup:
-        FizzBazz f = new FizzBazz()
+        FizzBuzz f = new FizzBuzz()
 
         expect:
         f.calc(x) == ret
